@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"gke_cluster","Source":"git@git.build.ingka.ikea.com:terraform/gcp-gke-cluster?ref=v0.1.3","Dir":".terraform/modules/gke_cluster"}]}
