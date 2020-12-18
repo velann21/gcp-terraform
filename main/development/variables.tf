@@ -238,3 +238,17 @@ variable "workload_identity_k8s_service_account" {
   type        = string
   description = "The service account email of the order management topic subscriber."
 }
+
+variable "location" {
+  default = "us-central1"
+}
+
+variable "kubernetes_version" {
+  default = "1.15"
+}
+
+variable "cluster_name" {
+  default = "pupmanager-us-central1-prod"
+}
+
+

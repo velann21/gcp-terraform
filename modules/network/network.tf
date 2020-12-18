@@ -1,14 +1,14 @@
 provider "google" {
   project = var.project
   region  = var.region
-  credentials = file("${path.module}/ancient-episode-282417-abaa71253668.json")
+  credentials = file("${path.module}/ancient-episode-282417-8027df4b43ea.json")
   impersonate_service_account = var.networking_serviceaccount_email
 }
 
 provider "google-beta" {
   project = var.project
   region  = var.region
-  credentials = file("${path.module}/ancient-episode-282417-abaa71253668.json")
+  credentials = file("${path.module}/ancient-episode-282417-8027df4b43ea.json")
   impersonate_service_account = var.networking_serviceaccount_email
 }
 

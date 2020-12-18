@@ -66,3 +66,7 @@ variable "prefix_length" {
   description = "prefix part of the CIDR range that google allocate"
   default     = 16
 }
+
+variable "bucket" {
+
+}

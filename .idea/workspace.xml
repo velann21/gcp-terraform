@@ -2,29 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="569ec5f6-0f1f-4685-bd56-97cb3a2cb336" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/gke_cluster/output.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/gke_cluster/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/network/remote-state.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/private-service-access/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/private-service-access/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/private-service-access/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/private-service-access/variables.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/private-service-access/versions.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.terraform.lock.hcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.terraform/environment" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.terraform/modules/modules.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.terraform/providers/registry.terraform.io/hashicorp/google/3.50.0/darwin_amd64/terraform-provider-google_v3.50.0_x5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/.terraform/terraform.tfstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/ancient-episode-282417-8388c2876ff6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/main.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/terraform.tfvars" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/variables.tf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/compute/compute.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/development/.terraform/modules/modules.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/development/.terraform/modules/modules.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/development/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main/development/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/development/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main/development/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/prod/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main/prod/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gke_cluster/.terraform/modules/gke_cluster" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gke_cluster/.terraform/modules/modules.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gke_cluster/cluster.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gke_cluster/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gke_cluster/remote-state.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/gke_cluster/variables.tf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/network/network.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network/network.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/service_accounts/output.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/service_accounts/output.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/service_accounts/service_accounts.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/service_accounts/service_accounts.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/service_accounts/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/service_accounts/variables.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/network/remote-state.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network/remote-state.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/network/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/modules/network/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +35,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/gke_cluster" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/service_accounts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,19 +45,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/service_accounts" />
+      <recent name="$PROJECT_DIR$/modules/network" />
+      <recent name="$PROJECT_DIR$/main/development" />
+      <recent name="$PROJECT_DIR$/modules/gke_cluster" />
+      <recent name="$PROJECT_DIR$/modules" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/main/development" />
       <recent name="$PROJECT_DIR$/modules/network" />
       <recent name="$PROJECT_DIR$/modules/compute" />
       <recent name="$PROJECT_DIR$/main" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/gke_cluster" />
-      <recent name="$PROJECT_DIR$/modules/network" />
-      <recent name="$PROJECT_DIR$/modules" />
-      <recent name="$PROJECT_DIR$/main/test" />
-      <recent name="$PROJECT_DIR$/main/prod" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
